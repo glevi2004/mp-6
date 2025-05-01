@@ -8,8 +8,8 @@ async function AccountPage() {
 
   // Define user information with fallback values
   const userInfo = {
-    name: user?.name || "Guest",
-    email: user?.email || "Not available",
+    name: user?.name || "Not Signed In",
+    email: user?.email || "Sign In at Home Page",
     image: user?.image || "https://via.placeholder.com/150", // Fallback placeholder image
   };
 
